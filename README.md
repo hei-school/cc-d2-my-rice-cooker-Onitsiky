@@ -35,9 +35,6 @@ And finally run it
     node ./src/mainMenu.js
 ```
 
-## Bug :bug:
-When leaving the application, it doesn't directly leave but still loop on the menu. 
-
 ## Linter
 
 As linter I used ts-standard, which is similar to [StandardJs](https://standardjs.com/rules)
