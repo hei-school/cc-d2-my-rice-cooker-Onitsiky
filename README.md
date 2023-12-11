@@ -37,3 +37,19 @@ And finally run it
 
 ## Bug :bug:
 When leaving the application, it doesn't directly leave but still loop on the menu. 
+
+## Linter
+
+As linter I used ts-standard, which is similar to [StandardJs](https://standardjs.com/rules)
+
+So to check, you can run :
+```shell
+    npm run lint
+```
+
+__Ps__: in the file handling.ts, I always get the lint error, which I couldn't find how to check  :
+```shell
+    handling.ts:127:9: Unexpected nullable boolean value in conditional. Please handle the nullish case explicitly. (@typescript-eslint/strict-boolean-expressions)
+    
+    handling.ts:107:15: Unexpected nullable boolean value in conditional. Please handle the nullish case explicitly. (@typescript-eslint/strict-boolean-expressions)
+```

@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "ts-standard --check",
+    "format": "ts-standard --fix"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,8 @@
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "@types/readline-sync": "^1.4.8"
+    "@types/readline-sync": "^1.4.8",
+    "standard": "^17.1.0",
+    "ts-standard": "^12.0.2"
   }
 }
